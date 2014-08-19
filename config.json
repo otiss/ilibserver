@@ -1,0 +1,54 @@
+{
+	"db": {
+		"port": 27017,
+		"host": "218.244.146.165",
+		"username":"admin",
+		"password":"pass",
+        "name": "ilibrary",
+        "acl": "acl"
+	},
+	"servers": {
+		"api": {
+            "port": 3000,
+            "address": "0.0.0.0"
+        },
+        "wechat": {
+            "port": 3001,
+            "address": "0.0.0.0"
+        }
+	},
+	"accessControl": {
+		"allowOrigin": "*",
+		"allowMethods": "GET,POST,PUT,DELETE,HEAD,OPTIONS"
+	},
+    "webchat": {
+        "token": "123456",
+        "state": "123456",
+        "encoding": "utf8",
+        "openID": "gh_c28f3ec88de9",
+        "appID": "wx6e329b2074970e79",
+        "appSecret": "fae0a009131adf6754b3998eb5194084",
+        "urls": {
+            "accessToken": "https://api.weixin.qq.com/sns/oauth2/access_token",
+            "sendMessage": "https://api.weixin.qq.com/cgi-bin/message/custom/send",
+            "token": "https://api.weixin.qq.com/cgi-bin/token",
+            "authorize": "https://open.weixin.qq.com/connect/oauth2/authorize",
+            "qrcode":" https://api.weixin.qq.com/cgi-bin/qrcode/create",
+            "showqrcode":"https://mp.weixin.qq.com/cgi-bin/showqrcode",
+            "info":"https://api.weixin.qq.com/cgi-bin/user/info",
+            "menu":{
+                "create": "https://api.weixin.qq.com/cgi-bin/menu/create"
+            }
+        }
+    },
+    "web":{
+        "baseurl": "http://218.244.146.165/"
+    },
+	"tokens": {
+		"inventory": {
+			"appName": "jxc",
+			"appSecret": "12345678"
+		}
+	},
+	"debug": true
+}
