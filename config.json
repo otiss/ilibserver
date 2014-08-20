@@ -26,8 +26,8 @@
         "state": "123456",
         "encoding": "utf8",
         "openID": "gh_c28f3ec88de9",
-        "appID": "wx6e329b2074970e79",
-        "appSecret": "fae0a009131adf6754b3998eb5194084",
+        "appID": "wx971ba24eb978fe8d",
+        "appSecret": "76d5997d9da8666b64ee1b597a2fc425",
         "urls": {
             "accessToken": "https://api.weixin.qq.com/sns/oauth2/access_token",
             "sendMessage": "https://api.weixin.qq.com/cgi-bin/message/custom/send",
